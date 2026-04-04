@@ -1,4 +1,6 @@
-name = "nodewarden"
+# 👇 这里改成 warden（修复名称不匹配）
+name = "warden"
+
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
@@ -34,8 +36,10 @@ database_name = "nodewarden-db"
 name = "NOTIFICATIONS_HUB"
 class_name = "NotificationsHub"
 
+# 👇 重点修复这里！加上 id = 你的KV空间ID
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
+id = "这里贴你复制的KV_ID"
 
 [[migrations]]
 tag = "v1-notifications-hub"
