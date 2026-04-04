@@ -11,7 +11,7 @@
     "dev:kv": "wrangler dev -c wrangler.kv.toml",
     "build": "vite build --config webapp/vite.config.ts",
     "deploy": "wrangler deploy",
-    "deploy:kv": "wrangler deploy -c wrangler.kv.toml"
+    "deploy:kv": "wrangler deploy"
   },
   "keywords": [
     "bitwarden",
