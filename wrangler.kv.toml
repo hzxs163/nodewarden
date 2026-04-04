@@ -1,5 +1,5 @@
 # 👇 这里改成 warden（修复名称不匹配）
-name = "warden"
+name = "2b6ab5bdedb545ac83af9e3c07e9fb43"
 
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
@@ -39,7 +39,7 @@ class_name = "NotificationsHub"
 # 👇 重点修复这里！加上 id = 你的KV空间ID
 [[kv_namespaces]]
 binding = "ATTACHMENTS_KV"
-id = "这里贴你复制的KV_ID"
+id = "2b6ab5bdedb545ac83af9e3c07e9fb43"
 
 [[migrations]]
 tag = "v1-notifications-hub"
