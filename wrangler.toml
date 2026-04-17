@@ -34,9 +34,6 @@ database_name = "nodewarden-db"
 name = "NOTIFICATIONS_HUB"
 class_name = "NotificationsHub"
 
-[[kv_namespaces]]
-binding = "ATTACHMENTS_KV"
-id = "2b6ab5bdedb545ac83af9e3c07e9fb43"
 
 [[migrations]]
 tag = "v1-notifications-hub"
